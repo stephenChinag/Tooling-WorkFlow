@@ -4,13 +4,16 @@
 	"description": "JavaScripTguide",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack",
+		"build:dev": "webpack-dev-server"
 	},
 	"author": "Stephen",
 	"license": "ISC",
 	"devDependencies": {
 		"eslint": "^8.35.0",
 		"webpack": "^5.75.0",
-		"webpack-cli": "^5.0.1"
+		"webpack-cli": "^5.0.1",
+		"webpack-dev-server": "^4.11.1"
 	}
 }
